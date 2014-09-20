@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B0D4BD319CCA39400F59C78 /* bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0D4BBD19CCA39400F59C78 /* bottom.png */; };
+		6B0D4BD419CCA39400F59C78 /* bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0D4BBE19CCA39400F59C78 /* bottom@2x.png */; };
+		6B0D4BD519CCA39400F59C78 /* bottom_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0D4BBF19CCA39400F59C78 /* bottom_h.png */; };
+		6B0D4BD619CCA39400F59C78 /* bottom_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0D4BC019CCA39400F59C78 /* bottom_h@2x.png */; };
+		6B0D4BD719CCA39400F59C78 /* center.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0D4BC119CCA39400F59C78 /* center.png */; };
+		6B0D4BD819CCA39400F59C78 /* center@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0D4BC219CCA39400F59C78 /* center@2x.png */; };
+		6B0D4BD919CCA39400F59C78 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0D4BC319CCA39400F59C78 /* left.png */; };
+		6B0D4BDA19CCA39400F59C78 /* left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0D4BC419CCA39400F59C78 /* left@2x.png */; };
+		6B0D4BDB19CCA39400F59C78 /* left_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0D4BC519CCA39400F59C78 /* left_h.png */; };
+		6B0D4BDC19CCA39400F59C78 /* left_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0D4BC619CCA39400F59C78 /* left_h@2x.png */; };
+		6B0D4BDD19CCA39400F59C78 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0D4BC719CCA39400F59C78 /* right.png */; };
+		6B0D4BDE19CCA39400F59C78 /* right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0D4BC819CCA39400F59C78 /* right@2x.png */; };
+		6B0D4BDF19CCA39400F59C78 /* right_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0D4BC919CCA39400F59C78 /* right_h.png */; };
+		6B0D4BE019CCA39400F59C78 /* right_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0D4BCA19CCA39400F59C78 /* right_h@2x.png */; };
+		6B0D4BE119CCA39400F59C78 /* CMTransparentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0D4BCE19CCA39400F59C78 /* CMTransparentButton.m */; };
+		6B0D4BE319CCA39400F59C78 /* CMTransparentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0D4BD219CCA39400F59C78 /* CMTransparentControl.m */; };
+		6B24050D19CADDEC00945A89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B24050C19CADDEC00945A89 /* Foundation.framework */; };
+		6B24050F19CADDEC00945A89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B24050E19CADDEC00945A89 /* CoreGraphics.framework */; };
+		6B24051119CADDED00945A89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B24051019CADDED00945A89 /* UIKit.framework */; };
+		6B24051719CADDED00945A89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B24051519CADDED00945A89 /* InfoPlist.strings */; };
+		6B24051919CADDED00945A89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B24051819CADDED00945A89 /* main.m */; };
+		6B24051D19CADDED00945A89 /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B24051C19CADDED00945A89 /* CMAppDelegate.m */; };
+		6B24052019CADDED00945A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B24051E19CADDED00945A89 /* Main.storyboard */; };
+		6B24052319CADDED00945A89 /* CMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B24052219CADDED00945A89 /* CMViewController.m */; };
+		6B24052519CADDED00945A89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B24052419CADDED00945A89 /* Images.xcassets */; };
+		6B414DAF19CD16FA0024D111 /* UITransparentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B414DAE19CD16FA0024D111 /* UITransparentButton.m */; };
+		6B869FD619CCFD6100820BB1 /* CMTransparentImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B869FD519CCFD6100820BB1 /* CMTransparentImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B0D4BBD19CCA39400F59C78 /* bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom.png; sourceTree = "<group>"; };
+		6B0D4BBE19CCA39400F59C78 /* bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom@2x.png"; sourceTree = "<group>"; };
+		6B0D4BBF19CCA39400F59C78 /* bottom_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom_h.png; sourceTree = "<group>"; };
+		6B0D4BC019CCA39400F59C78 /* bottom_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom_h@2x.png"; sourceTree = "<group>"; };
+		6B0D4BC119CCA39400F59C78 /* center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = center.png; sourceTree = "<group>"; };
+		6B0D4BC219CCA39400F59C78 /* center@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "center@2x.png"; sourceTree = "<group>"; };
+		6B0D4BC319CCA39400F59C78 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		6B0D4BC419CCA39400F59C78 /* left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left@2x.png"; sourceTree = "<group>"; };
+		6B0D4BC519CCA39400F59C78 /* left_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_h.png; sourceTree = "<group>"; };
+		6B0D4BC619CCA39400F59C78 /* left_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left_h@2x.png"; sourceTree = "<group>"; };
+		6B0D4BC719CCA39400F59C78 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		6B0D4BC819CCA39400F59C78 /* right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right@2x.png"; sourceTree = "<group>"; };
+		6B0D4BC919CCA39400F59C78 /* right_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_h.png; sourceTree = "<group>"; };
+		6B0D4BCA19CCA39400F59C78 /* right_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right_h@2x.png"; sourceTree = "<group>"; };
+		6B0D4BCC19CCA39400F59C78 /* ARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARC.h; sourceTree = "<group>"; };
+		6B0D4BCD19CCA39400F59C78 /* CMTransparentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTransparentButton.h; sourceTree = "<group>"; };
+		6B0D4BCE19CCA39400F59C78 /* CMTransparentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTransparentButton.m; sourceTree = "<group>"; };
+		6B0D4BD119CCA39400F59C78 /* CMTransparentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTransparentControl.h; sourceTree = "<group>"; };
+		6B0D4BD219CCA39400F59C78 /* CMTransparentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTransparentControl.m; sourceTree = "<group>"; };
+		6B24050919CADDEC00945A89 /* testTransparentButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testTransparentButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B24050C19CADDEC00945A89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B24050E19CADDEC00945A89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6B24051019CADDED00945A89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B24051419CADDED00945A89 /* testTransparentButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testTransparentButton-Info.plist"; sourceTree = "<group>"; };
+		6B24051619CADDED00945A89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B24051819CADDED00945A89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B24051A19CADDED00945A89 /* testTransparentButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testTransparentButton-Prefix.pch"; sourceTree = "<group>"; };
+		6B24051B19CADDED00945A89 /* CMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAppDelegate.h; sourceTree = "<group>"; };
+		6B24051C19CADDED00945A89 /* CMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegate.m; sourceTree = "<group>"; };
+		6B24051F19CADDED00945A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B24052119CADDED00945A89 /* CMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMViewController.h; sourceTree = "<group>"; };
+		6B24052219CADDED00945A89 /* CMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMViewController.m; sourceTree = "<group>"; };
+		6B24052419CADDED00945A89 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6B414DAD19CD16FA0024D111 /* UITransparentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITransparentButton.h; sourceTree = "<group>"; };
+		6B414DAE19CD16FA0024D111 /* UITransparentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITransparentButton.m; sourceTree = "<group>"; };
+		6B869FD419CCFD6100820BB1 /* CMTransparentImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTransparentImage.h; sourceTree = "<group>"; };
+		6B869FD519CCFD6100820BB1 /* CMTransparentImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTransparentImage.m; sourceTree = "<group>"; };
+		6BD39FBD19CBE745008D1227 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B24050619CADDEC00945A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B24050F19CADDEC00945A89 /* CoreGraphics.framework in Frameworks */,
+				6B24051119CADDED00945A89 /* UIKit.framework in Frameworks */,
+				6B24050D19CADDEC00945A89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B0D4BBC19CCA39400F59C78 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6B0D4BBD19CCA39400F59C78 /* bottom.png */,
+				6B0D4BBE19CCA39400F59C78 /* bottom@2x.png */,
+				6B0D4BBF19CCA39400F59C78 /* bottom_h.png */,
+				6B0D4BC019CCA39400F59C78 /* bottom_h@2x.png */,
+				6B0D4BC119CCA39400F59C78 /* center.png */,
+				6B0D4BC219CCA39400F59C78 /* center@2x.png */,
+				6B0D4BC319CCA39400F59C78 /* left.png */,
+				6B0D4BC419CCA39400F59C78 /* left@2x.png */,
+				6B0D4BC519CCA39400F59C78 /* left_h.png */,
+				6B0D4BC619CCA39400F59C78 /* left_h@2x.png */,
+				6B0D4BC719CCA39400F59C78 /* right.png */,
+				6B0D4BC819CCA39400F59C78 /* right@2x.png */,
+				6B0D4BC919CCA39400F59C78 /* right_h.png */,
+				6B0D4BCA19CCA39400F59C78 /* right_h@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6B0D4BCB19CCA39400F59C78 /* Transparent buttons */ = {
+			isa = PBXGroup;
+			children = (
+				6B414DB019CE12CC0024D111 /* Image alpha map */,
+				6B414DB119CE12DC0024D111 /* UIButton extended */,
+				6B414DB219CE12EA0024D111 /* Custom controls */,
+			);
+			path = "Transparent buttons";
+			sourceTree = "<group>";
+		};
+		6B24050019CADDEC00945A89 = {
+			isa = PBXGroup;
+			children = (
+				6B24051219CADDED00945A89 /* testTransparentButton */,
+				6B24050B19CADDEC00945A89 /* Frameworks */,
+				6B24050A19CADDEC00945A89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B24050A19CADDEC00945A89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B24050919CADDEC00945A89 /* testTransparentButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B24050B19CADDEC00945A89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BD39FBD19CBE745008D1227 /* CoreImage.framework */,
+				6B24050C19CADDEC00945A89 /* Foundation.framework */,
+				6B24050E19CADDEC00945A89 /* CoreGraphics.framework */,
+				6B24051019CADDED00945A89 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B24051219CADDED00945A89 /* testTransparentButton */ = {
+			isa = PBXGroup;
+			children = (
+				6B0D4BBC19CCA39400F59C78 /* Images */,
+				6B0D4BCB19CCA39400F59C78 /* Transparent buttons */,
+				6B24051B19CADDED00945A89 /* CMAppDelegate.h */,
+				6B24051C19CADDED00945A89 /* CMAppDelegate.m */,
+				6B24051E19CADDED00945A89 /* Main.storyboard */,
+				6B24052119CADDED00945A89 /* CMViewController.h */,
+				6B24052219CADDED00945A89 /* CMViewController.m */,
+				6B24052419CADDED00945A89 /* Images.xcassets */,
+				6B24051319CADDED00945A89 /* Supporting Files */,
+			);
+			path = testTransparentButton;
+			sourceTree = "<group>";
+		};
+		6B24051319CADDED00945A89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B24051419CADDED00945A89 /* testTransparentButton-Info.plist */,
+				6B24051519CADDED00945A89 /* InfoPlist.strings */,
+				6B24051819CADDED00945A89 /* main.m */,
+				6B24051A19CADDED00945A89 /* testTransparentButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B414DB019CE12CC0024D111 /* Image alpha map */ = {
+			isa = PBXGroup;
+			children = (
+				6B0D4BCC19CCA39400F59C78 /* ARC.h */,
+				6B869FD419CCFD6100820BB1 /* CMTransparentImage.h */,
+				6B869FD519CCFD6100820BB1 /* CMTransparentImage.m */,
+			);
+			name = "Image alpha map";
+			sourceTree = "<group>";
+		};
+		6B414DB119CE12DC0024D111 /* UIButton extended */ = {
+			isa = PBXGroup;
+			children = (
+				6B414DAD19CD16FA0024D111 /* UITransparentButton.h */,
+				6B414DAE19CD16FA0024D111 /* UITransparentButton.m */,
+			);
+			name = "UIButton extended";
+			sourceTree = "<group>";
+		};
+		6B414DB219CE12EA0024D111 /* Custom controls */ = {
+			isa = PBXGroup;
+			children = (
+				6B0D4BD119CCA39400F59C78 /* CMTransparentControl.h */,
+				6B0D4BD219CCA39400F59C78 /* CMTransparentControl.m */,
+				6B0D4BCD19CCA39400F59C78 /* CMTransparentButton.h */,
+				6B0D4BCE19CCA39400F59C78 /* CMTransparentButton.m */,
+			);
+			name = "Custom controls";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B24050819CADDEC00945A89 /* testTransparentButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B24053B19CADDED00945A89 /* Build configuration list for PBXNativeTarget "testTransparentButton" */;
+			buildPhases = (
+				6B24050519CADDEC00945A89 /* Sources */,
+				6B24050619CADDEC00945A89 /* Frameworks */,
+				6B24050719CADDEC00945A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testTransparentButton;
+			productName = testTransparentButton;
+			productReference = 6B24050919CADDEC00945A89 /* testTransparentButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B24050119CADDEC00945A89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "GMO RunSystem";
+			};
+			buildConfigurationList = 6B24050419CADDEC00945A89 /* Build configuration list for PBXProject "testTransparentButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B24050019CADDEC00945A89;
+			productRefGroup = 6B24050A19CADDEC00945A89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B24050819CADDEC00945A89 /* testTransparentButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B24050719CADDEC00945A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B24052519CADDED00945A89 /* Images.xcassets in Resources */,
+				6B0D4BD519CCA39400F59C78 /* bottom_h.png in Resources */,
+				6B0D4BD419CCA39400F59C78 /* bottom@2x.png in Resources */,
+				6B0D4BDF19CCA39400F59C78 /* right_h.png in Resources */,
+				6B0D4BDB19CCA39400F59C78 /* left_h.png in Resources */,
+				6B0D4BDA19CCA39400F59C78 /* left@2x.png in Resources */,
+				6B0D4BE019CCA39400F59C78 /* right_h@2x.png in Resources */,
+				6B24051719CADDED00945A89 /* InfoPlist.strings in Resources */,
+				6B0D4BDD19CCA39400F59C78 /* right.png in Resources */,
+				6B0D4BD319CCA39400F59C78 /* bottom.png in Resources */,
+				6B0D4BDE19CCA39400F59C78 /* right@2x.png in Resources */,
+				6B0D4BD619CCA39400F59C78 /* bottom_h@2x.png in Resources */,
+				6B0D4BD919CCA39400F59C78 /* left.png in Resources */,
+				6B0D4BDC19CCA39400F59C78 /* left_h@2x.png in Resources */,
+				6B0D4BD819CCA39400F59C78 /* center@2x.png in Resources */,
+				6B0D4BD719CCA39400F59C78 /* center.png in Resources */,
+				6B24052019CADDED00945A89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B24050519CADDEC00945A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0D4BE319CCA39400F59C78 /* CMTransparentControl.m in Sources */,
+				6B24051D19CADDED00945A89 /* CMAppDelegate.m in Sources */,
+				6B24051919CADDED00945A89 /* main.m in Sources */,
+				6B0D4BE119CCA39400F59C78 /* CMTransparentButton.m in Sources */,
+				6B414DAF19CD16FA0024D111 /* UITransparentButton.m in Sources */,
+				6B24052319CADDED00945A89 /* CMViewController.m in Sources */,
+				6B869FD619CCFD6100820BB1 /* CMTransparentImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B24051519CADDED00945A89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B24051619CADDED00945A89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6B24051E19CADDED00945A89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B24051F19CADDED00945A89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B24053919CADDED00945A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B24053A19CADDED00945A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B24053C19CADDED00945A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testTransparentButton/testTransparentButton-Prefix.pch";
+				INFOPLIST_FILE = "testTransparentButton/testTransparentButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B24053D19CADDED00945A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testTransparentButton/testTransparentButton-Prefix.pch";
+				INFOPLIST_FILE = "testTransparentButton/testTransparentButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B24050419CADDEC00945A89 /* Build configuration list for PBXProject "testTransparentButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B24053919CADDED00945A89 /* Debug */,
+				6B24053A19CADDED00945A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B24053B19CADDED00945A89 /* Build configuration list for PBXNativeTarget "testTransparentButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B24053C19CADDED00945A89 /* Debug */,
+				6B24053D19CADDED00945A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B24050119CADDEC00945A89 /* Project object */;
+}
