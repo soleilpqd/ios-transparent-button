@@ -215,7 +215,7 @@
     for ( unsigned int i = 0; i < self.frame.size.height * scale; i++ ) {
         for ( unsigned int j = 0; j < self.frame.size.width * scale; j++ ) {
             NSUInteger index = i * self.frame.size.width + j;
-            fprintf( file, "%02lx ", _bitmapData[ index ]);
+            fprintf( file, "%02dx ", _bitmapData[ index ]);
         }
         fprintf( file, "\n" );
     }
@@ -232,7 +232,7 @@
 -( BOOL )testPoint:(CGPoint)point withThreshold:(unsigned int)alphaThreshold {
     if ( CGRectContainsPoint( _bounds, point )) {
         NSUInteger index =  ceil( point.y * _scale ) * ceil( _bounds.size.width * _scale ) + ceil( point.x * _scale );
-        unsigned long picAlpha = _bitmapData[ index ];
+        Byte picAlpha = _bitmapData[ index ];
         return picAlpha > alphaThreshold;
     }
     return NO;
