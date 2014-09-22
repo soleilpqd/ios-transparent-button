@@ -33,7 +33,6 @@
             self.alphaMap = [[ CMTransparentImage alloc ] initWithImage:image
                                                         containerBounds:self.bounds
                                                             displayRect:self.bounds // UIButton always scallToFit background image
-                                                        backgroundColor:self.backgroundColor
                                                           disableRetina:NO ];
         }
     }

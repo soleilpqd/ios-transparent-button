@@ -37,7 +37,6 @@
                                                     displayRect:[ CMTransparentImage displayFrameForImageSize:_backgroundImage.size
                                                                                                    inViewSize:self.frame.size
                                                                                                forContentMode:self.contentMode ]
-                                                backgroundColor:self.backgroundColor
                                                   disableRetina:NO ]; // Can not disable retina because we use alphaMap to make clip mask in auto-highlight image
     }
 }

@@ -48,7 +48,6 @@
 -( id )initWithImage:( UIImage* )image
      containerBounds:( CGRect )bounds
          displayRect:( CGRect )imageFrame
-     backgroundColor:( UIColor* )backgroundColor
        disableRetina:( BOOL )noRetina;
 
 /**

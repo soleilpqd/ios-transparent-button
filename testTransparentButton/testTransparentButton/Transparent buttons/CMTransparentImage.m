@@ -140,14 +140,13 @@
         _bounds = CGRectMake( 0, 0, image.size.width, image.size.height );
         [ self drawBitmapWithImage:image
                           inBounds:image.size
-                      displayFrame:_bounds
-                   backgroundColor:nil ];
+                      displayFrame:_bounds ];
     }
     return self;
 }
 
 -( id )initWithImage:(UIImage *)image containerBounds:(CGRect)bounds
-         displayRect:(CGRect)imageFrame backgroundColor:(UIColor *)backgroundColor
+         displayRect:(CGRect)imageFrame
        disableRetina:(BOOL)noRetina {
     if ( image == nil ) return nil;
     if ( self = [ super init ]) {
@@ -159,8 +158,7 @@
         _bounds.size = bounds.size;
         [ self drawBitmapWithImage:image
                           inBounds:bounds.size
-                      displayFrame:imageFrame
-                   backgroundColor:backgroundColor ];
+                      displayFrame:imageFrame ];
     }
     return self;
 }
@@ -174,7 +172,9 @@
 
 #pragma mark - Private
 
--( void )drawBitmapWithImage:( UIImage* )image inBounds:( CGSize )boundsSize displayFrame:( CGRect )imgFrame backgroundColor:( UIColor* )bkgColor {
+-( void )drawBitmapWithImage:( UIImage* )image
+                    inBounds:( CGSize )boundsSize
+                displayFrame:( CGRect )imgFrame {
     // Buffer
     size_t bitmapSize = boundsSize.width * _scale * boundsSize.height * _scale;
     _bitmapData = calloc( bitmapSize, 1 );
@@ -201,11 +201,6 @@
         bounds.size.width *= _scale;
         bounds.size.height *= _scale;
     }
-    // Draw background
-    if ( bkgColor == nil ) bkgColor = [ UIColor clearColor ];
-    CGContextClearRect( context, bounds );
-    CGContextSetFillColorWithColor( context, bkgColor.CGColor );
-    CGContextFillRect( context, bounds );
     // Draw image
     CGContextDrawImage( context, imgFrame, backgroundImage );
     CGContextRelease( context );
